@@ -46,6 +46,12 @@ h2{
     height: 3rem;
     border: none;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.boton-entrar:hover {
+    background-color: #00c45f;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    width: 10rem ;
 }
 
 /* ---------------articulo 2---------------- */
@@ -89,7 +95,7 @@ footer p{
     h1 {
         font-size: 3rem !important;
     }
-    .my-btn-1{
+    .my-boton-1{
         display: none;
     }
 }
