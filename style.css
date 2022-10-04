@@ -1,0 +1,102 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.header{  
+    background: linear-gradient(to left, #009246 , white 85%);
+    font-size: 1.5rem;
+}
+.logo{
+    width: 80px;
+}
+.section-1, .section-2, .section-4{
+    
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    
+
+}
+/* -------------seccion 1----------------- */
+.section-1{
+    
+    background-color: #ce2b37;
+}
+.imagen-titulo{
+    border-radius: 50% 5% 5% 50%;
+}
+h1{
+    font-size: 5rem !important;
+}
+h2{
+    font-size: 3rem !important;
+    font-weight: lighter;
+}
+.titulo{
+    
+    color: white;
+}
+.boton-entrar{
+    background-color: #009246;
+    margin: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5 1rem 0.5 1rem;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ---------------articulo 2---------------- */
+.section-2{
+    margin-bottom: 5rem !important;
+    padding: 20px !important;
+}
+
+
+/* -------------------articulo 3----------------------------- */
+
+.subtitulo-2{
+    background-image: url("https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9ybm8lMjBwYXJhJTIwcGl6emFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    color: white;
+    height: 15vh;
+}
+.informacion{
+    height: 80vh;
+}
+.my-cards{
+    width: 18rem;
+   
+}
+/* -------------------------------------seccion 4  -------------------------*/
+
+.section-4 {
+    background-color: rgb(206, 43, 55);
+    color: white;
+}
+/* -------footer----------- */
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer p{
+    color: rgb(0, 0, 117);
+}
+/* ---------------------------ajuste de responsive--------------------- */
+@media (max-width:576px){
+    h1 {
+        font-size: 3rem !important;
+    }
+    .my-btn-1{
+        display: none;
+    }
+}
+@media (min-width:1200px) {
+    .section-1, .section-2, .section-3, .section-4 {
+        height: 100vh;
+    }
+    
+    
+}
