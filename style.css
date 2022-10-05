@@ -1,48 +1,71 @@
-*{
-    padding: 0 ;
-    margin: 0 ;
+body{
+    margin: 0 .7rem 0 .7rem !important;
 }
-h1, h2, h5 {
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h5 {
     font-family: 'Cinzel', serif !important;
 }
-p, ul, a{
-    font-family:'PT Serif', serif ;
+
+p,
+ul,
+a {
+    font-family: 'PT Serif', serif;
 }
-.header{  
-    background: linear-gradient(to left, #009246 , white 85%);
+
+.header {
+    background: linear-gradient(to left, #009246, white 85%);
     font-size: 1.5rem;
 }
-.logo{
+
+.logo {
     width: 80px;
 }
-.section-1, .section-2, .section-4{
-    
+
+.section-1,
+.section-2,
+.section-4 {
+
     margin: 0 !important;
     padding: 0 !important;
-    
-    
+
+
 
 }
+
 /* -------------seccion 1----------------- */
-.section-1{
-    
+.section-1 {
+
     background-color: #ce2b37;
+    height: 50rem;
+    
 }
-.imagen-titulo{
+
+.imagen-titulo {
     border-radius: 50% 5% 5% 50%;
 }
-h1{
+
+h1 {
     font-size: 5rem !important;
 }
-h2{
+
+h2 {
     font-size: 3rem !important;
     font-weight: lighter;
 }
-.titulo{
-    
+
+.titulo {
+
     color: white;
 }
-.boton-entrar{
+
+.boton-entrar {
     background-color: #009246;
     margin: 1.5rem;
     color: white;
@@ -54,61 +77,95 @@ h2{
     border-radius: 10px;
     transition: 0.3s ease-in-out;
 }
+
 .boton-entrar:hover {
     background-color: #00c45f;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    width: 10rem ;
+    width: 10rem;
 }
 
 /* ---------------articulo 2---------------- */
-.section-2{
+.section-2 {
     margin-bottom: 5rem !important;
     padding: 20px !important;
 }
 
 
-/* -------------------articulo 3----------------------------- */
+/* -------------------seccion 3 pizzas----------------------------- */
 
-.subtitulo-2{
+.subtitulo-2 {
     background-image: url("https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9ybm8lMjBwYXJhJTIwcGl6emFzfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
     background-size: cover;
     color: white;
     height: 15vh;
 }
-.informacion{
+
+.informacion {
     height: 80vh;
 }
-.my-cards{
-    width: 18rem;
-   
+/*------------- tarjetas--------------- */
+.tarjeta-pizza{
+    max-width: 40rem;
+    min-height: 28rem;
+    max-height: 33rem;
 }
-/* -------------------------------------seccion 4  -------------------------*/
+.tarjeta-nosotros {
+    width: 25rem;
+}
+
+/* -------------------------------------seccion 4 nosotros -------------------------*/
 
 .section-4 {
     background-color: rgb(206, 43, 55);
     color: white;
 }
+
 /* -------footer----------- */
-footer a{
+footer a {
     text-decoration: none;
     color: black;
 }
-footer p{
+
+footer p {
     color: rgb(0, 0, 117);
 }
+
 /* ---------------------------ajuste de responsive--------------------- */
-@media (max-width:576px){
+@media (max-width:576px) {
     h1 {
-        font-size: 3rem !important;
+        font-size: 2rem !important;
     }
-    .my-boton-1{
+    .section-1{
+        height: 15rem;
+    }
+
+    .my-boton-1 {
         display: none;
     }
 }
-@media (min-width:1200px) {
-    .section-1, .section-2, .section-3, .section-4 {
-        height: 100vh;
+
+@media (max-width:780px) {
+    h1 {
+        font-size: 2rem !important;
     }
-    
-    
+    .section-1{
+        height: 15rem;
+    }
+
+    .my-boton-1 {
+        display: none;
+    }
+}
+@media (max-width:1025px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    .section-1{
+        height: 25rem;
+        margin-top: 30rem !important;
+    }
+
+    .my-boton-1 {
+        display: none;
+    }
 }
